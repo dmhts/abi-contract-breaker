@@ -1,0 +1,4 @@
+framework module ABIContractBreaker {
+    header "ABIContractBreaker-Swift.h"
+    export *
+}
