@@ -18,6 +18,67 @@
         "children": [
           {
             "kind": "Var",
+            "name": "circle",
+            "printedName": "circle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABIContractBreaker.Shape.Type) -> (Swift.Int) -> ABIContractBreaker.Shape",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> ABIContractBreaker.Shape",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Shape",
+                        "printedName": "ABIContractBreaker.Shape",
+                        "usr": "s:18ABIContractBreaker5ShapeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(radius: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABIContractBreaker.Shape.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Shape",
+                        "printedName": "ABIContractBreaker.Shape",
+                        "usr": "s:18ABIContractBreaker5ShapeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18ABIContractBreaker5ShapeO6circleyACSi_tcACmF",
+            "mangledName": "$s18ABIContractBreaker5ShapeO6circleyACSi_tcACmF",
+            "moduleName": "ABIContractBreaker",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
             "name": "rect",
             "printedName": "rect",
             "children": [
@@ -77,67 +138,6 @@
             "declKind": "EnumElement",
             "usr": "s:18ABIContractBreaker5ShapeO4rectyACSi_SitcACmF",
             "mangledName": "$s18ABIContractBreaker5ShapeO4rectyACSi_SitcACmF",
-            "moduleName": "ABIContractBreaker",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 0
-          },
-          {
-            "kind": "Var",
-            "name": "circle",
-            "printedName": "circle",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ABIContractBreaker.Shape.Type) -> (Swift.Int) -> ABIContractBreaker.Shape",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> ABIContractBreaker.Shape",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Shape",
-                        "printedName": "ABIContractBreaker.Shape",
-                        "usr": "s:18ABIContractBreaker5ShapeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(radius: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "ABIContractBreaker.Shape.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Shape",
-                        "printedName": "ABIContractBreaker.Shape",
-                        "usr": "s:18ABIContractBreaker5ShapeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18ABIContractBreaker5ShapeO6circleyACSi_tcACmF",
-            "mangledName": "$s18ABIContractBreaker5ShapeO6circleyACSi_tcACmF",
             "moduleName": "ABIContractBreaker",
             "fixedbinaryorder": 1
           }
