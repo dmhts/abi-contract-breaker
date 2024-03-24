@@ -1,19 +1,19 @@
 import Foundation
 
 @frozen public enum FrozenShape {
-    case rect(w: Int, h: Int)
     case circle(inRadian: Bool, radiusDescription: String)
+    case rect(w: Int, h: Int)
 }
 
 public enum NonFrozenShape {
-    case rect(w: Int, h: Int)
     case circle(inRadian: Bool, radiusDescription: String)
+    case rect(w: Int, h: Int)
 }
 
 @frozen public struct FrozenAuto {
-    public let name: String
     public let isElectric: Bool
     public let maxSpeed: Float
+    public let name: String
 
     public init(name: String, isElectric: Bool, maxSpeed: Float) {
         self.name = name
@@ -23,9 +23,9 @@ public enum NonFrozenShape {
 }
 
 public struct NonFrozenAuto {
-    public let name: String
     public let isElectric: Bool
     public let maxSpeed: Float
+    public let name: String
 
     public init(name: String, isElectric: Bool, maxSpeed: Float) {
         self.name = name
@@ -35,9 +35,9 @@ public struct NonFrozenAuto {
 }
 
 public class NonFinalMyAuto {
-    public let name: String
     public let isElectric: Bool
     public let maxSpeed: Float
+    public let name: String
 
     public init(name: String, isElectric: Bool, maxSpeed: Float) {
         self.name = name
