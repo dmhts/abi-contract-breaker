@@ -18,70 +18,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "rect",
-            "printedName": "rect",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ABIContractBreaker.FrozenShape.Type) -> (Swift.Int, Swift.Int) -> ABIContractBreaker.FrozenShape",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int, Swift.Int) -> ABIContractBreaker.FrozenShape",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FrozenShape",
-                        "printedName": "ABIContractBreaker.FrozenShape",
-                        "usr": "s:18ABIContractBreaker11FrozenShapeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(w: Swift.Int, h: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "ABIContractBreaker.FrozenShape.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FrozenShape",
-                        "printedName": "ABIContractBreaker.FrozenShape",
-                        "usr": "s:18ABIContractBreaker11FrozenShapeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18ABIContractBreaker11FrozenShapeO4rectyACSi_SitcACmF",
-            "mangledName": "$s18ABIContractBreaker11FrozenShapeO4rectyACSi_SitcACmF",
-            "moduleName": "ABIContractBreaker",
-            "fixedbinaryorder": 0
-          },
-          {
-            "kind": "Var",
             "name": "circle",
             "printedName": "circle",
             "children": [
@@ -142,6 +78,70 @@
             "usr": "s:18ABIContractBreaker11FrozenShapeO6circleyACSb_SStcACmF",
             "mangledName": "$s18ABIContractBreaker11FrozenShapeO6circleyACSb_SStcACmF",
             "moduleName": "ABIContractBreaker",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "rect",
+            "printedName": "rect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABIContractBreaker.FrozenShape.Type) -> (Swift.Int, Swift.Int) -> ABIContractBreaker.FrozenShape",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.Int) -> ABIContractBreaker.FrozenShape",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FrozenShape",
+                        "printedName": "ABIContractBreaker.FrozenShape",
+                        "usr": "s:18ABIContractBreaker11FrozenShapeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(w: Swift.Int, h: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABIContractBreaker.FrozenShape.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FrozenShape",
+                        "printedName": "ABIContractBreaker.FrozenShape",
+                        "usr": "s:18ABIContractBreaker11FrozenShapeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18ABIContractBreaker11FrozenShapeO4rectyACSi_SitcACmF",
+            "mangledName": "$s18ABIContractBreaker11FrozenShapeO4rectyACSi_SitcACmF",
+            "moduleName": "ABIContractBreaker",
             "fixedbinaryorder": 1
           }
         ],
@@ -169,69 +169,6 @@
         "name": "NonFrozenShape",
         "printedName": "NonFrozenShape",
         "children": [
-          {
-            "kind": "Var",
-            "name": "rect",
-            "printedName": "rect",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ABIContractBreaker.NonFrozenShape.Type) -> (Swift.Int, Swift.Int) -> ABIContractBreaker.NonFrozenShape",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int, Swift.Int) -> ABIContractBreaker.NonFrozenShape",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NonFrozenShape",
-                        "printedName": "ABIContractBreaker.NonFrozenShape",
-                        "usr": "s:18ABIContractBreaker14NonFrozenShapeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(w: Swift.Int, h: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "ABIContractBreaker.NonFrozenShape.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NonFrozenShape",
-                        "printedName": "ABIContractBreaker.NonFrozenShape",
-                        "usr": "s:18ABIContractBreaker14NonFrozenShapeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18ABIContractBreaker14NonFrozenShapeO4rectyACSi_SitcACmF",
-            "mangledName": "$s18ABIContractBreaker14NonFrozenShapeO4rectyACSi_SitcACmF",
-            "moduleName": "ABIContractBreaker"
-          },
           {
             "kind": "Var",
             "name": "circle",
@@ -294,6 +231,69 @@
             "usr": "s:18ABIContractBreaker14NonFrozenShapeO6circleyACSb_SStcACmF",
             "mangledName": "$s18ABIContractBreaker14NonFrozenShapeO6circleyACSb_SStcACmF",
             "moduleName": "ABIContractBreaker"
+          },
+          {
+            "kind": "Var",
+            "name": "rect",
+            "printedName": "rect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABIContractBreaker.NonFrozenShape.Type) -> (Swift.Int, Swift.Int) -> ABIContractBreaker.NonFrozenShape",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.Int) -> ABIContractBreaker.NonFrozenShape",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NonFrozenShape",
+                        "printedName": "ABIContractBreaker.NonFrozenShape",
+                        "usr": "s:18ABIContractBreaker14NonFrozenShapeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(w: Swift.Int, h: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABIContractBreaker.NonFrozenShape.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NonFrozenShape",
+                        "printedName": "ABIContractBreaker.NonFrozenShape",
+                        "usr": "s:18ABIContractBreaker14NonFrozenShapeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18ABIContractBreaker14NonFrozenShapeO4rectyACSi_SitcACmF",
+            "mangledName": "$s18ABIContractBreaker14NonFrozenShapeO4rectyACSi_SitcACmF",
+            "moduleName": "ABIContractBreaker"
           }
         ],
         "declKind": "Enum",
@@ -309,54 +309,6 @@
         "name": "FrozenAuto",
         "printedName": "FrozenAuto",
         "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18ABIContractBreaker10FrozenAutoV4nameSSvp",
-            "mangledName": "$s18ABIContractBreaker10FrozenAutoV4nameSSvp",
-            "moduleName": "ABIContractBreaker",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18ABIContractBreaker10FrozenAutoV4nameSSvg",
-                "mangledName": "$s18ABIContractBreaker10FrozenAutoV4nameSSvg",
-                "moduleName": "ABIContractBreaker",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
           {
             "kind": "Var",
             "name": "isElectric",
@@ -377,7 +329,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 0,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -396,6 +348,54 @@
                 "declKind": "Accessor",
                 "usr": "s:18ABIContractBreaker10FrozenAutoV10isElectricSbvg",
                 "mangledName": "$s18ABIContractBreaker10FrozenAutoV10isElectricSbvg",
+                "moduleName": "ABIContractBreaker",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ABIContractBreaker10FrozenAutoV4nameSSvp",
+            "mangledName": "$s18ABIContractBreaker10FrozenAutoV4nameSSvp",
+            "moduleName": "ABIContractBreaker",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ABIContractBreaker10FrozenAutoV4nameSSvg",
+                "mangledName": "$s18ABIContractBreaker10FrozenAutoV4nameSSvg",
                 "moduleName": "ABIContractBreaker",
                 "implicit": true,
                 "declAttributes": [
@@ -479,50 +479,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18ABIContractBreaker13NonFrozenAutoV4nameSSvp",
-            "mangledName": "$s18ABIContractBreaker13NonFrozenAutoV4nameSSvp",
-            "moduleName": "ABIContractBreaker",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18ABIContractBreaker13NonFrozenAutoV4nameSSvg",
-                "mangledName": "$s18ABIContractBreaker13NonFrozenAutoV4nameSSvg",
-                "moduleName": "ABIContractBreaker",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "isElectric",
             "printedName": "isElectric",
             "children": [
@@ -559,6 +515,50 @@
                 "declKind": "Accessor",
                 "usr": "s:18ABIContractBreaker13NonFrozenAutoV10isElectricSbvg",
                 "mangledName": "$s18ABIContractBreaker13NonFrozenAutoV10isElectricSbvg",
+                "moduleName": "ABIContractBreaker",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ABIContractBreaker13NonFrozenAutoV4nameSSvp",
+            "mangledName": "$s18ABIContractBreaker13NonFrozenAutoV4nameSSvp",
+            "moduleName": "ABIContractBreaker",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ABIContractBreaker13NonFrozenAutoV4nameSSvg",
+                "mangledName": "$s18ABIContractBreaker13NonFrozenAutoV4nameSSvg",
                 "moduleName": "ABIContractBreaker",
                 "implicit": true,
                 "accessorKind": "get"
@@ -773,6 +773,7 @@
         "mangledName": "$s18ABIContractBreaker14NonFinalMyAutoC",
         "moduleName": "ABIContractBreaker",
         "declAttributes": [
+          "Final",
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true

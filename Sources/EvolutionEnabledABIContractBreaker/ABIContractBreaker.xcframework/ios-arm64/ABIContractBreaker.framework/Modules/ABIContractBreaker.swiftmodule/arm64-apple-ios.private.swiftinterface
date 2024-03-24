@@ -7,24 +7,24 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @frozen public enum FrozenShape {
-  case rect(w: Swift.Int, h: Swift.Int)
   case circle(inRadian: Swift.Bool, radiusDescription: Swift.String)
+  case rect(w: Swift.Int, h: Swift.Int)
 }
 public enum NonFrozenShape {
-  case rect(w: Swift.Int, h: Swift.Int)
   case circle(inRadian: Swift.Bool, radiusDescription: Swift.String)
+  case rect(w: Swift.Int, h: Swift.Int)
 }
 @frozen public struct FrozenAuto {
-  public let name: Swift.String
   public let isElectric: Swift.Bool
+  public let name: Swift.String
   public let maxSpeed: Swift.Float
 }
 public struct NonFrozenAuto {
-  public let name: Swift.String
   public let isElectric: Swift.Bool
+  public let name: Swift.String
   public let maxSpeed: Swift.Float
 }
-@_hasMissingDesignatedInitializers public class NonFinalMyAuto {
+@_hasMissingDesignatedInitializers final public class NonFinalMyAuto {
   final public let name: Swift.String
   final public let isElectric: Swift.Bool
   final public let maxSpeed: Swift.Float
